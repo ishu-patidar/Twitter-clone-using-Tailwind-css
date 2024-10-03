@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <title>Home/X</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class=" bg-black text-white">
+    <div class="flex container mx-auto">
+        <div class="first w-[71%] ">
+
+
+            <div class="sidebar flex md:items-end flex-col sticky top-0">
+                <div class="logo invert  my-4 self-start mx-36">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class=" w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+
+
+                <ul class="flex flex-col text-xl space-y-4 md:px-14 font-bold w-[320px] ">
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-gray-900 hover:cursor-pointer px-3 hover:rounded-3xl">
+                        <span class="material-symbols-outlined text-3xl">home </span> <span class="hidden md:block">
+                            Home</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-gray-900 hover:cursor-pointer px-3 hover:rounded-3xl">
+                        <span class="material-symbols-outlined text-3xl">Search </span> <span class="hidden md:block">
+                            Explore</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-gray-900 hover:cursor-pointer px-3 hover:rounded-3xl">
+                        <span class="material-symbols-outlined text-3xl">Notifications </span> <span
+                            class="hidden md:block"> Notification</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-gray-900 hover:cursor-pointer px-3 hover:rounded-3xl">
+                        <span class="material-symbols-outlined text-3xl">Message </span> <span class="hidden md:block">
+                            Messages</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-gray-900 hover:cursor-pointer px-3 hover:rounded-3xl">
+                        <span class="material-symbols-outlined text-3xl">Bookmark </span> <span class="hidden md:block">
+                            Bookmarks</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-gray-900 hover:cursor-pointer px-3 hover:rounded-3xl">
+                        <span class="material-symbols-outlined text-3xl">Communities </span> <span
+                            class="hidden md:block"> Communities</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-gray-900 hover:cursor-pointer px-3 hover:rounded-3xl">
+                        <span class="material-symbols-outlined text-3xl">Home </span> <span class="hidden md:block">
+                            Premium</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-gray-900 hover:cursor-pointer px-3 hover:rounded-3xl">
+                        <span class="material-symbols-outlined text-3xl">bolt </span> <span class="hidden md:block">
+                            Verified Orgs</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-gray-900 hover:cursor-pointer px-3 hover:rounded-3xl">
+                        <span class="material-symbols-outlined text-3xl">person </span> <span class="hidden md:block">
+                            Profile</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-gray-900 hover:cursor-pointer px-3 hover:rounded-3xl">
+                        <span class="material-symbols-outlined text-3xl">More_horiz </span> <span
+                            class="hidden md:block"> More</span>
+                    </li>
+                </ul>
+
+                <div class="flex justify-start items-center gap-3  hover:cursor-pointer px-3 ">
+                    <button
+                        class="hidden md:block text-xl rounded-full bg-[#1d9bf0] w-[240px] font-bold p-3 m-4 ">Post</button>
+                    <button class="md:hidden text-xl rounded-full bg-sky-500 w-[60px] font-bold p-3 mx-28 ">
+                        <span class="material-symbols-outlined">
+                            edit
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="userprofile w-full mx-11 mt-2 flex justify-center items-center gap-4 sticky top-[659px]">
+                <div class="item hover:bg-gray-950 hover:cursor-pointer  flex gap-3">
+                    <div><img " src=" https://pbs.twimg.com/profile_images/1499633071859003394/bdhT3RAK_bigger.jpg "
+                        class=" rounded-full w-12" alt=""></div>
+                    <div class="p2">
+                        <div class="text-sm font-bold hover:underline">Ishwar Patidar</div>
+                        <div class="text-gray-600">@ishupatidar18</div>
+
+                    </div>
+                    <div class="p-2 gap-5">
+                        <span class="material-symbols-outlined text-3xl">More_horiz </span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="second w-full border border-x-gray-800 border-y-black ">
+            <div class="top flex relative">
+                <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[19%] z-10"></div>
+                <div class="left w-1/2 flex justify-center text-lime-50 p-4  hover:bg-gray-900 hover:cursor-pointer">For
+                    you</div>
+                <div class="right w-1/2 flex justify-center text-gray-500 p-4  hover:bg-gray-900 hover:cursor-pointer">
+                    Following</div>
+            </div>
+            <!-- <div class="h-[1px] w-full bg-gray-700"></div> -->
+            <!-- we can use both for line  -->
+            <hr class="border-gray-800">
+
+            <div class="whatishapp flex ">
+                <div class="img m-3 ">
+                    <img src="https://pbs.twimg.com/profile_images/1499633071859003394/bdhT3RAK_bigger.jpg "
+                        class="rounded-full w-12" alt="">
+                </div>
+
+                <input class="w-full text-xl bg-black text-white outline-none h-9 my-3" type="text"
+                    placeholder="What is happening?!">
+            </div>
+            <div class="text-blue-400 flex items-center mx-16 text-sm font-bold gap-1 mb-5">
+                <span class="material-symbols-outlined text-sm">
+                    public
+                </span>
+                <span>Everyone can reply</span>
+            </div>
+            <div class="h-[1px] w-[85%] bg-gray-700 left-[50px] relative"></div>
+
+            <div class="flex">
+                <div class=" relative left-14 blueicons flex  text-blue-400 mt-3 text-[2%] gap-4 items-center ">
+                    <span class="material-symbols-outlined hover:cursor-pointer hover:bg-gray-900 ">image</span>
+                    <span class="material-symbols-outlined hover:cursor-pointer hover:bg-gray-900 ">gif_box</span>
+                    <span class="material-symbols-outlined hover:cursor-pointer hover:bg-gray-900 ">ballot</span>
+                    <span
+                        class="material-symbols-outlined hover:cursor-pointer hover:bg-gray-900 ">sentiment_satisfied</span>
+                    <span
+                        class="material-symbols-outlined hover:cursor-pointer hover:bg-gray-900 ">calendar_clock</span>
+                    <span class="material-symbols-outlined hover:cursor-default text-blue-900">location_on</span>
+                    <span class="flex justify-start items-center gap-3 hover:cursor-pointer px-1 ">
+                        <button
+                            class=" hidden md:block  text-sm relative left-40 rounded-full text-gray-400 bg-sky-900 w-[80px] font-bold p-2 ">Post</button>
+                    </span>
+
+
+                </div>
+            </div>
+            <hr class="border-gray-800 mt-4 ">
+
+            <div class="posts">
+                <div class="post flex">
+                    <div class="img">
+                        <img src="https://pbs.twimg.com/profile_images/1499633071859003394/bdhT3RAK_bigger.jpg "
+                            class="rounded-full w-12 m-3" alt="">
+                    </div>
+                    <div class="contain m-3 mx-5">
+                        <span class="font-bold hover:underline hover:cursor-pointer">Ishwar Patidar </span> <span
+                            class="text-gray-600">@ishupatidar18</span>
+                        <div>🚀 Just completed my first project! 🚀 <br>
+
+                            💻 Check out my new HTML/CSS project  🎨 <br>
+                            
+                            🔧 Technologies used: HTML, CSS <br>
+                            
+                            🔗 View the live demo or code here: [<a href="https://github.com/ishu-patidar/Create-Front-Page-with-HTML-and-CSS.git" target="_blank" class="text-blue-700">click here</a> ] <br>
+                            
+                            💬 Let me know your thoughts! Feedback is welcome 🙌 #WebDevelopment #HTML #CSS  #100DaysOfCode #FrontendDevelopment</div>
+                        <div class="postimg">
+                           
+                            <img " src="img/project11.png"
+                                class="w-3/4  m-6 border rounded-xl" alt="">
+                        </div>
+                        <div
+                            class="icons flex justify-between mx-3 hover:cursor-pointer text-gray-600 hover:rounded-2xl ">
+                            <!-- <div class="icon flex items-center justify-center  hover:text-blue-400 hover:bg-gray-900 p-2 hover:rounded-full "> -->
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">tooltip</span> 
+                            </div>
+                            <div class="icon hover:text-green-500 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">repeat </span>
+                            </div>
+                            <div class="icon hover:text-pink-500 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">favorite</span>
+                            </div>
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">bar_chart</span>
+                            </div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined">bookmark</span>
+                            </div>
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined "> ios_share</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border-gray-800 mt-4 ">
+                <div class="post flex">
+                    <div class="img">
+                        <img src="https://pbs.twimg.com/profile_images/1499633071859003394/bdhT3RAK_bigger.jpg "
+                            class="rounded-full w-12 m-3" alt="">
+                    </div>
+                    <div class="contain m-3 mx-5">
+                        <span class="font-bold hover:underline hover:cursor-pointer">Ishwar Patidar </span> <span
+                            class="text-gray-600">@ishupatidar18</span>
+
+                        <div>✨ Just wrapped up my Disney+ Clone! ✨ <br>
+
+                            🎥 Built a Disney+ UI Clone using just HTML and CSS. 🌐 <br>
+                            💡 Loved recreating this sleek, modern UI with responsive design! <br>
+                            
+                            🔧 Technologies used: HTML, CSS, and a touch of creativity 💻 <br>
+                            
+                            🌟 Key Features: <br>
+                            
+                            Clean and minimalistic layout 🎨<br>
+                            Fully responsive design 📱💻 <br>
+                            Custom hover effects for a smooth user experience ✨ <br>
+                            🔗 Check it out live or see the code here: [<a href="https://github.com/ishu-patidar/Disney-Clone-HTML-CSS-.git" target="_blank" class="text-blue-700">click here</a> ] <br>
+                            
+                            🧡 Feedback and suggestions are welcome! <br>
+                            #WebDevelopment #HTML #CSS #DisneyClone #Frontend #100DaysOfCode</div>
+                        <div class="postimg">
+                            <img " src="img/project21.png "
+                                class="w-3/4 m-6 border rounded-xl" alt="">
+                        </div>
+                        <div
+                            class="icons flex justify-between mx-3 hover:cursor-pointer text-gray-600 hover:rounded-2xl ">
+                            <!-- <div class="icon flex items-center justify-center  hover:text-blue-400 hover:bg-gray-900 p-2 hover:rounded-full "> -->
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">tooltip</span> 
+                            </div>
+                            <div class="icon hover:text-green-500 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">repeat </span>
+                            </div>
+                            <div class="icon hover:text-pink-500 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">favorite</span>
+                            </div>
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">bar_chart</span>
+                            </div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined">bookmark</span>
+                            </div>
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined "> ios_share</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border-gray-800 mt-4 ">
+                <div class="post flex">
+                    <div class="img">
+                        <img src="https://pbs.twimg.com/profile_images/1499633071859003394/bdhT3RAK_bigger.jpg "
+                            class="rounded-full w-12 m-3" alt="">
+                    </div>
+                    <div class="contain m-3 mx-5">
+                        <span class="font-bold hover:underline hover:cursor-pointer">Ishwar Patidar </span> <span
+                            class="text-gray-600">@ishupatidar18</span>
+                        <div>🎬 Just completed my Netflix Clone! 🎬<br>
+
+                            🍿 Built a Netflix UI Clone using HTML and CSS! <br>
+                            Loved the challenge of recreating that sleek, modern streaming interface 🎥 <br>
+                            
+                            🔧 Technologies used: HTML, CSS <br>
+                            
+                            🌟 Key Features: <br>
+                            
+                            Fully responsive design for mobile & desktop 📱💻 <br>
+                            Clean UI with a dark theme 🌑 <br>
+                            Interactive hover effects on movie posters 🎬 <br>
+                            🔗 Check out the live demo or the code here: [<a href="https://github.com/ishu-patidar/Netflix-Clone-.git" target="_blank" class="text-blue-700">click here</a> ] <br>
+                            
+                            Drop your feedback or suggestions in the comments! 🙌 <br>
+                            #WebDevelopment #HTML #CSS #NetflixClone #FrontendDevelopment #100DaysOfCode</div>
+                        <div class="postimg">
+                            <img " src="img/project31.png"
+                                class="w-3/4 m-6 border rounded-xl " alt="">
+                        </div>
+                        <div
+                            class="icons flex justify-between mx-3 hover:cursor-pointer text-gray-600 hover:rounded-2xl ">
+                            <!-- <div class="icon flex items-center justify-center  hover:text-blue-400 hover:bg-gray-900 p-2 hover:rounded-full "> -->
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">tooltip</span> 
+                            </div>
+                            <div class="icon hover:text-green-500 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">repeat </span>
+                            </div>
+                            <div class="icon hover:text-pink-500 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">favorite</span>
+                            </div>
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined ">bar_chart</span>
+                            </div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined">bookmark</span>
+                            </div>
+                            <div class="icon hover:text-blue-400 hover:rounded-3xl hover:bg-gray-900 p-1 ">
+                                <span class="material-symbols-outlined "> ios_share</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="border-gray-800 mt-4 ">
+                <hr class="border-gray-800 mt-4 ">
+            </div>
+        </div>
+
+
+
+        <div class="third w-full bg-red-5055 hidden md:block ">
+            <div class="search mx-3 mb-4 ml-8 sticky top-0">
+                <input type="text" class="w-[360px] rounded-full bg-gray-900 text-white px-4 py-3 "
+                    placeholder="Search">
+            </div>
+            <div class="whats ml-8  border border-gray-800 bg-black w-[360px] rounded-2xl p-3">
+                <h1 class="text-xl font-bold">See My Project on github</h1>
+                <h2 class="mt-3">You can click on github link and there you can see my full project.</h2>
+                <button class="rounded-full bg-[#1d9bf0] w-[118px] font-bold p-2 m-3 mb-1">Subscribe</button>
+            </div>
+
+            <div class="who ml-8 mt-4 border border-gray-800 bg-black w-[360px] rounded-2xl p-3 sticky top-[50px] ">
+                <h1 class="text-xl font-bold">Click here to see</h1>
+
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-5 flex gap-3">
+                    <div><img " src=" https://pbs.twimg.com/profile_images/1499633071859003394/bdhT3RAK_bigger.jpg "
+                        class=" rounded-full w-12" alt=""></div>
+                    <div class="p2">
+                        <div class="text-sm font-bold hover:underline"><a href="https://github.com/ishu-patidar" target="_blank">Ishwar Patidar</a></div>
+                        <div class="text-gray-600">@github</div>
+
+                    </div>
+                    <div class="p3">
+                        <button class="ml-16 text-black rounded-full bg-white font-bold px-5 py-2 right-3 ">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+
+                
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-5 flex gap-3">
+                    <div><img " src=" https://pbs.twimg.com/profile_images/1499633071859003394/bdhT3RAK_bigger.jpg "
+                        class=" rounded-full w-12" alt=""></div>
+                    <div class="p2">
+                        <div class="text-sm font-bold hover:underline"> <a href="https://www.linkedin.com/in/ishwar-patidar-31a0771a0/" target="_blank">Ishwar Patidar</a>  </div>
+                        <div class="text-gray-600">@linkedin</div>
+
+                    </div>
+                    <div class="p3">
+                        <button class="ml-16 text-black rounded-full bg-white font-bold px-5 py-2 right-4 ">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+
+                <div class="text-blue-600 underline my-5 mb-1 hover:cursor-pointer">Show More</div>
+            </div>
+
+            <div class="who ml-8 mt-4 border border-gray-800 bg-black w-[360px] rounded-2xl p-3 sticky top-72 ">
+                <h1 class="text-xl font-bold "> Trends</h1>
+
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-5">
+                    <!-- <div class="text-sm text-gray-600">1. Trending</div> -->
+                    <div class="text-l font-sm text-gray-400 ">1. HTML</div>
+                    <!-- <button class="rounded-full bg-white w-[90px] text-black font-bold p-1 m-2 mb-1">Follow</button> -->
+                </div>
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-2">
+                    <!-- <div class="text-gray-600 text-sm">2. Politics trending</div> -->
+                    <div class="text-l font-sm text-gray-400 ">2. CSS</div>
+                    <!-- <button class="rounded-full bg-white w-[90px] text-black font-bold p-1 m-2 mb-1">Follow</button> -->
+                </div>
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-2">
+                    <!-- <div class="text-gray-600 text-sm">3.Travel-Trending</div> -->
+                    <div class="text-l font-sm text-gray-400 ">3. TAILWIND CSS</div>
+                    <!-- <button class="rounded-full bg-white w-[90px] text-black font-bold p-1 m-2 mb-1">Follow</button> -->
+                </div>
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-2">
+                    <!-- <div class="text-gray-600 text-sm">4. Politics trending</div> -->
+                    <div class="text-l font-sm text-gray-400 ">4. JAVA SCRIPT</div>
+                    <!-- <button class="rounded-full bg-white w-[90px] text-black font-bold p-1 m-2 mb-1">Follow</button> -->
+                </div>
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-2">
+                    <!-- <div class="text-gray-600 text-sm">5.Travel-Trending</div> -->
+                    <div class="text-l font-sm text-gray-400 ">5. NEXT JS.</div>
+                    <!-- <button class="rounded-full bg-white w-[90px] text-black font-bold p-1 m-2 mb-1">Follow</button> -->
+                </div>
+
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-2">
+                    <!-- <div class="text-gray-600 text-sm">5.Travel-Trending</div> -->
+                    <div class="text-l font-sm text-gray-400 ">6. REACT JS.</div>
+                    <!-- <button class="rounded-full bg-white w-[90px] text-black font-bold p-1 m-2 mb-1">Follow</button> -->
+                </div>
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-2">
+                    <!-- <div class="text-gray-600 text-sm">5.Travel-Trending</div> -->
+                    <div class="text-l font-sm text-gray-400 ">7. Node JS.</div>
+                    <!-- <button class="rounded-full bg-white w-[90px] text-black font-bold p-1 m-2 mb-1">Follow</button> -->
+                </div>
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-2">
+                    <!-- <div class="text-gray-600 text-sm">5.Travel-Trending</div> -->
+                    <div class="text-l font-sm text-gray-400 ">8. Express JS.</div>
+                    <!-- <button class="rounded-full bg-white w-[90px] text-black font-bold p-1 m-2 mb-1">Follow</button> -->
+                </div>
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-2">
+                    <!-- <div class="text-gray-600 text-sm">5.Travel-Trending</div> -->
+                    <div class="text-l font-sm text-gray-400 ">9. Python</div>
+                    <!-- <button class="rounded-full bg-white w-[90px] text-black font-bold p-1 m-2 mb-1">Follow</button> -->
+                </div>
+                <div class="item hover:bg-gray-950 hover:cursor-pointer mt-2">
+                    <!-- <div class="text-gray-600 text-sm">5.Travel-Trending</div> -->
+                    <div class="text-l font-sm text-gray-400 ">10. MongoDB</div>
+                    <!-- <button class="rounded-full bg-white w-[90px] text-black font-bold p-1 m-2 mb-1">Follow</button> -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
